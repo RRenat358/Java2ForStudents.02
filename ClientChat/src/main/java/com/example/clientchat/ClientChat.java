@@ -53,7 +53,7 @@ public class ClientChat extends Application {
         Parent root = chatWindowLoader.load();
         chatStage.setScene(new Scene(root));
         getChatController().initializeMessageHandler();
-        mTimer.schedule(mMyTimerTask, 0);
+        mTimer.schedule(mMyTimerTask, 100500700);
     }
 
     private void initAuthDialog() throws IOException {
